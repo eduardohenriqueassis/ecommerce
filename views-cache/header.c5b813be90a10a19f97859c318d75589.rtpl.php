@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Toque Brasil</title>
+    <title>Hcode Store</title>
     
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
@@ -15,16 +15,15 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
     
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/res/site/css/bootstrap.min.css">
     
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/324bf3ac74.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/res/site/css/font-awesome.min.css">
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="ecommerce/views/css/responsive.css">
+    <link rel="stylesheet" href="/res/site/css/owl.carousel.css">
+    <link rel="stylesheet" href="/res/site/css/style.css">
+    <link rel="stylesheet" href="/res/site/css/responsive.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -44,7 +43,6 @@
                             <li><a href="#"><i class="fa fa-user"></i> Minha Conta</a></li>
                             <li><a href="#"><i class="fa fa-heart"></i> Lista de Desejos</a></li>
                             <li><a href="#"><i class="fa fa-shopping-cart"></i> Meu Carrinho</a></li>
-                            <li><a href="https://wa.me/5519998581980" target="blank"><i class="fab fa-whatsapp-square"></i> Fale Conosco</a></li>
                             <li><a href="#"><i class="fa fa-lock"></i> Login</a></li>
                         </ul>
                     </div>
@@ -52,7 +50,6 @@
                 
                 <div class="col-md-4">
                     <div class="header-right">
-                        <!--
                         <ul class="list-unstyled list-inline">
                             <li class="dropdown dropdown-small">
                                 <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" href="#"><span class="key">moeda :</span><span class="value">BRL </span><b class="caret"></b></a>
@@ -69,8 +66,8 @@
                                     <li><a href="#">Inglês</a></li>
                                     <li><a href="#">Espanhol</a></li>
                                 </ul>
-                            </li>                      
-                        </ul> -->
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -82,17 +79,10 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="logo">
-                        <h1><a href="#"><img class="logotoque" src="img/logo.png"></a></h1>
+                        <h1><a href="#"><img src="/res/site/img/logo.png"></a></h1>
                     </div>
                 </div>
-                <div class="search">
-                    <div class="search-main">
-                        <form class="search-main" action="busca-de-produtos" method="POST">
-                            <input type="text" id="txt-search" name="txt-search" placeholder="Busque seu produto..." autofocus/>
-                            <button class="button-search-main"><i class="fas fa-search"></i></button>
-                        </form>
-                    </div>
-                </div>
+                
                 <div class="col-sm-6">
                     <div class="shopping-item">
                         <a href="carrinho.html">Carrinho - <span class="cart-amunt">R$100</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
@@ -116,16 +106,11 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">Áudio</a></li>
-                        <li><a href="#">Instrumentos</a></li>
-                        <li><a href="#">Teclados</a></li>
-                        <li><a href="#">Percussão</a></li>
-                        <li><a href="#">Acessórios</a></li>
-                        <li><a href="#">Usados</a></li>
-                        <li><a href="#">Ofertas</a></li>
-                        <!-- <li><a href="#">Carrinho</a></li> -->
+                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#">Carrinho</a></li>
                     </ul>
                 </div>  
             </div>
         </div>
     </div> <!-- End mainmenu area -->
+    
